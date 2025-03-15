@@ -8,7 +8,7 @@
 <body>
     <h1>Ticket Seller Registation</h1>
     
-    <form method="post" action="/springwtk/view/home.php">
+    <form method="post" action="/springwtk/view/WebTechProject/MID/CODE/LAB1/home.php">
         
         <fieldset>
             <legend>Seller Information</legend>
@@ -34,13 +34,13 @@
                     <tr>
                         <th align="left">Password:</th>
                         <td>
-                            <input type="text" name="password" >
+                            <input type="password" name="password" >
                         </td>
                     </tr>
                     <tr>
                         <th align="left">Confirm Password:</th>
                         <td>
-                            <input type="text" name="confirm_password" >
+                            <input type="password" name="confirm_password" >
                         </td>
                     </tr>
                 </table>
@@ -79,7 +79,7 @@
         </fieldset>
         <br>
 
-        <fieldset>
+        <fieldset >
             <legend>Business Details</legend>
             <table>
                 <tr>
@@ -110,6 +110,12 @@
                         <input type="radio" name="bus_type" value='Luxury'>Luxury
                     </td>
                 </tr>
+                <tr>
+                    <th align="left">Registation Date:</th>
+                    <td>
+                        <input type="date" name="registation_date">
+                    </td>
+                </tr>
             </table>
         </fieldset>
 
@@ -128,9 +134,17 @@
                 <input type="submit" name="submit" value="Register">  <!--Here, value="Register" sets the text inside the button-->
             </td>
         </tr>
-    </table>
-        
+    </table>  
     </form>
+    <br><br><br>
+    
+
+    <tr>
+        <td>
+            <th>Already have an account <a href="">Login here</a> </th>
+        </td>
+    </tr>
+    
 
 
 </body>
