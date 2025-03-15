@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello, Home php!</h1>
+    <h1>Hello, Home php page!</h1>
 </body>
 </html>
